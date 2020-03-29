@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_restorant"
+        android:title="Home"
+        android:icon="@drawable/home" >
+
+    </item>
+    <item android:id="@+id/address"
+        android:title="Address"
+        android:icon="@drawable/adress" >
+
+    </item>
+    <item android:id="@+id/order_list"
+        android:title="OrderList"
+        android:icon="@drawable/cart" >
+
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Profile"
+        android:icon="@drawable/user" >
+
+    </item>
+
+</menu>

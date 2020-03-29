@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_marginTop="5dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_marginBottom="10dp"
+       android:layout_height="wrap_content">
+       <EditText
+           android:hint="Add new Address"
+           android:padding="12dp"
+           android:id="@+id/addressET"
+           android:layout_marginStart="5dp"
+           android:layout_toStartOf="@+id/addAddress"
+           android:background="@drawable/frame"
+           android:textColor="@color/colorAccent"
+           android:textColorHint="@android:color/white"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+       <Button
+           android:text="add"
+           android:layout_marginStart="5dp"
+           android:id="@+id/addAddress"
+           android:layout_alignParentEnd="true"
+           android:layout_marginEnd="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/buttons"/>
+
+   </RelativeLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

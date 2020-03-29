@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PigApp</string>
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">password</string>
+    <string name="register">Register...</string>
+    <string name="phone">phone</string>
+    <string name="remember_me">remember Me</string>
+    <string name="register_text">Don`t have an account?</string>
+    <string name="restourant_name">restourant_name</string>
+    <string name="descripstion">descripstion</string>
+    <string name="price_epe">price.EPE</string>
+    <string name="increment">+</string>
+    <string name="_0">0</string>
+    <string name="decrement">-</string>
+    <string name="item_quentity">item_quentity</string>
+    <string name="price">price:</string>
+    <string name="confirm">confirm</string>
+    <string name="total_cost">total cost</string>
+    <string name="notice">* Notice:when delete item please refresh to make sure</string>
+</resources>
